@@ -12,7 +12,7 @@ TeamAfot (say it “team effort”) is a team of developers in Accra, Ghana. We 
 - **Custom systems**, including visitor, hostel, inventory and helpdesk management
 - **Domains, hosting and professional email**
 - **IT support** and maintenance
-- **Data and dashboards** with Power BI and Excel
+- **Data and dashboards** with Power BI and Excel.
 
 ## Get in touch
 - **WhatsApp and calls:** 024 550 2417
