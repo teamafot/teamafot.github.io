@@ -157,6 +157,9 @@ h3 { font-family: var(--sans); font-weight: 600; font-size: 1.08rem; line-height
 .weddings h2 em { font-style: italic; color: var(--champagne); }
 .weddings .btn--solid { background: var(--champagne); color: var(--deep); }
 .weddings .btn--solid:hover { background: var(--paper); }
+.weddings__actions { display: flex; flex-wrap: wrap; gap: .8rem; }
+.weddings .btn--line { border-color: rgba(233, 211, 161, .55); color: var(--paper); }
+.weddings .btn--line:hover { background: rgba(233, 211, 161, .12); color: var(--paper); }
 .weddings__grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(2.5rem, 7vw, 7rem); align-items: center; }
 .weddings__lede { margin-top: 1.2rem; color: #B9C6D2; max-width: 31rem; }
 .ticks { list-style: none; margin: 2rem 0 2.5rem; padding: 0; display: grid; gap: .65rem; }
@@ -267,7 +270,10 @@ h3 { font-family: var(--sans); font-weight: 600; font-size: 1.08rem; line-height
 .story__eq em { color: var(--brass-ink); display: block; }
 .story__text p { color: var(--navy); }
 .story__text p + p { margin-top: 1rem; }
-.story__text a { font-weight: 600; text-decoration-color: var(--brass); text-underline-offset: 4px; }
+.promises { list-style: none; margin: 1.5rem 0 0; padding: 0; display: grid; gap: .9rem; }
+.promises li { position: relative; padding-left: 1.6rem; color: var(--navy); }
+.promises li::before { content: ""; position: absolute; left: 0; top: .62em; width: 8px; height: 8px; transform: rotate(45deg); background: var(--brass); }
+.promises strong { font-weight: 700; }
 
 /* ===== Contact ===== */
 .contact { padding: var(--section) 0; }
