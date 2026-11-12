@@ -1,6 +1,6 @@
 // TeamAfot site scripts
 (function () {
-  const WHATSAPP = "233245502417"; // change here if the number changes
+  const WHATSAPP = "233552318104"; // change here if the number changes
 
   // Footer year
   const y = document.getElementById("year");
